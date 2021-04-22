@@ -1,15 +1,13 @@
-# mapper
+# Map
+![](media/Mapper.gif)  
 
-University of Toronto ECE297 project:
+A fully functioning map that was developed in C++ using the ezgl and Gtk graphics libraries. It uses OpenStreetMap data and supports a range of powerful features. This was a full-term project for ECE297. 
 
-> A Geographic Information System (GIS) software program that will let you visualize and solve travel and optimization problems in maps of any city of the world.
+## Credits
+This repository is a fork from https://github.com/zakharykaplan/mapper which contains the dockerfile and virtualization support for running the map. Mapper was developed on the university computer enviornment and normally could not be run outisde of that. The forked repository sets up support for allowing any computer to run the map using docker. 
 
-Or just a mapper for short. This project was created for the 2020 Winter semester.
+The actual map itself is completely unique and was developed by myself along with a team of two others as part of a course project for ECE297. 
 
-![screenshot](./screenshot.png)
-
-Note that due to the size of the database binaries, the only map included in this repository is of Hamilton, Ontario.
-However, the [`osm2bin`](https://github.com/jeffreycassidy/osm2bin) tool can be used to generate maps for other cities using [OpenStreetMap](https://www.openstreetmap.org) data.
 
 ## Usage
 
